@@ -1,0 +1,308 @@
+.clear-fix {
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        min-height: 97px;
+    }
+    .header .logo {
+        margin-top: -40px;
+    }
+    
+    .header .logo img {
+    height: 40px;
+    padding-left: 20px;
+    margin-top: -30px;
+    }
+    
+    .header nav {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    
+    }
+    
+    .header nav ul {
+        display: flex;
+        list-style: none;
+    }
+  
+      
+    .header nav ul li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 19px;
+        transition: 0.3s;
+        padding: 40px 10px;
+        padding-left: 10px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        margin-top: -20px;
+    }
+    .header nav ul li a:hover {
+        color: burlywood;
+    
+    }
+    
+
+.header {
+    text-align: center;
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+.header p.one {
+    padding: 20px;
+    font-weight: 400;
+    color: rgba(255,255,255, .92);
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    margin-top: 0;
+}
+.header h1 {
+    font-size: 76px;
+    font-weight: 400;
+    font-family: "Alegreya";
+    margin-top: 0;
+}
+.header p.two {
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    color:  rgba(255,255,255, .92);
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+}
+.header .but button{
+    padding: 15px 20px;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.header .but button:hover{
+    background-color: #fff;
+    color: #303030;
+    cursor: pointer;
+}
+.header .but .but-one{
+background-color: burlywood;
+}
+.header .but .but-two{
+background-color: transparent;
+border: 2px solid #fff;
+padding: 13px 23px;
+}
+.survises {
+    margin-top: 100px;
+    padding: 0 60px;
+}
+
+.survises .image {
+    background-color: #fff;
+    width: 50%;
+}
+.survises .image img{
+    width: 85%;
+float: left;
+margin-top: 60px;
+}
+
+.survises .text{
+    width: 50%;
+    float: right;
+    text-align: left;
+    
+}
+.survises .text h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #303030;
+    /* line-height: 1.38em; */
+    font-family: "Alegreya";
+    padding-top: 80px;
+    
+}
+.survises .text p {
+    font-weight: 400;
+    color: #686868;  
+    line-height: 1.8em;
+    font-size: 17px;
+}
+.survises .text li {
+margin-bottom: 20px;
+color: #686868;  
+line-height: 3em;
+list-style: none;
+
+}
+.survises .text li img{
+width: 40px;
+border-radius: 50%;
+margin: -20px 10px; 
+border: 1px solid black;
+} 
+
+.Location{
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+}
+.Location .itme {
+    float: left;
+    width: 40%;
+    padding-top: 200px;
+    padding-left: 0px;
+}
+.test{
+    padding-left: 50px;
+}
+.Location .itme h2 {
+    font-size: 32px;
+    color: #303030;
+line-height: 1.38em;
+margin-bottom: 25px;
+font-weight: 400;
+}
+.Location .itme p{
+   margin-bottom: 20px;
+   font-weight: 400;
+   color: #686868;
+   font-size: 17px;
+   line-height: 1.8;
+}
+
+.Location .image {
+    float: right;
+    width: 60%;
+}
+.Location .image img{
+    width: 69%;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+
+
+.card {
+    float: left;
+    padding-top: 50px;
+}
+.item{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.item img{
+width: 80%;
+padding: 20px;
+margin-top: 15px;
+}
+.card .text h3{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #303030;
+}
+.card .text p{
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: #686868;
+}
+.card .item h4 {
+    font-size: 22px;
+    color: #303030;
+line-height: 1.38;
+}
+.card .item p {
+    font-size: 17px;
+    color: #686868;
+     line-height: 1.86;
+     margin-bottom: 50px;
+}
+.Contact {
+    background-color: #f8f8f8;
+    padding-left: 60px;
+}
+.Contact .one h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #303030;
+}
+.Contact .one p {
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+}
+.Contact .details .icon-list {
+font-size: 17px;
+    color: #686868;
+    line-height: 1.86em;
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+.Contact .details .icon-list img{
+width: 30px;
+border-radius: 50%;
+border: 1px solid burlywood;
+
+}
+.Contact .details .icon-list span{
+padding-left: 20px;
+padding-top: 5px;
+}
+.Contact .details .icon-list li {
+    padding: 20px 0 ; 
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.767);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+footer p{
+    text-align: center;
+    color: #f8f8f8;
+}
+
+footer .social-icons i {
+    padding: 10px 15px;
+    color: #f8f8f8;
+   }
+   footer i:hover{
+    font-size: 25px;
+    cursor: pointer;
+    color: burlywood;
+   }
+   footer a {
+    display: block;
+font-size: 20px;
+font-weight: 800;
+color: burlywood;
+text-decoration: none;
+padding-top: 15px;
+   }
